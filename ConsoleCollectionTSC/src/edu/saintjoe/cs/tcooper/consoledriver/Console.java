@@ -1,9 +1,9 @@
 package edu.saintjoe.cs.tcooper.consoledriver;
 
-public class Consoles {
+public class Console {
 
 	private String name;
-	private String age;
+	private int age;
 	
 	
 	public void setName(String newName){
@@ -13,20 +13,20 @@ public class Consoles {
 		return name;
 	}
 	
-	public void setAge(String newAge){
+	public void setAge(int newAge){
 		age = newAge;
 	}
-	public String getAge(){
+	public int getAge(){
 		return age;
 	}
 	
-	public Consoles(String newName, String newAge){
+	public Console(String newName, int newAge){
 		name = newName;
 		age = newAge;
 	}
 	
 	public String toString(){
-		return ("Name: " + name + "age: " + age);
+		return ("Name: " + name + " age: " + age);
 	}
 	
 }
